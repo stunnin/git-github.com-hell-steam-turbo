@@ -1,5 +1,6 @@
 ﻿'//         
 '//       Copyright (c) shinez 2017 - 2018
+'//       Originally made to steal of skeletons URLs, but he get idiot and then realese??!?!?
 '//         
 
 Public Class main
