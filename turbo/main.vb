@@ -4,6 +4,7 @@
 
 Public Class main
     Private Sub btnStartClick(sender As Object, e As EventArgs) Handles btnStart.Click
+        attempts = 0
         tmTurbo.Start()
         lblStatus.Text = "[ running ]"
         txtURL.Enabled = False
@@ -23,8 +24,6 @@ Public Class main
     Private Sub btnStopClick(sender As Object, e As EventArgs) Handles btnStop.Click
         tmTurbo.Stop()
         lblStatus.Text = "[ idle ]"
-        attempts = 0
-        txtAttempts.Text = attempts.ToString()
         txtURL.Enabled = True
     End Sub
     Private Sub mainLoad(sender As Object, e As EventArgs) Handles MyBase.Load
